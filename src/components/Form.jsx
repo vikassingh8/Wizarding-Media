@@ -17,7 +17,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5000/api/form/submit", {
+      const response = await axios.post("https://wizarding-media.onrender.com/api/form/submit", {
         name: formData.name,
         contact: formData.number, 
         email: formData.email,
